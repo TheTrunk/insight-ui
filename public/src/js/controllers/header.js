@@ -6,9 +6,9 @@ angular.module('insight.system').controller('HeaderController',
 
     $rootScope.currency = {
       factor: 1,
-      symbol: 'SAFE',
-      realSymbol: 'SAFE',
-      netSymbol: 'SAFE'
+      symbol: 'ANON',
+      realSymbol: 'ANON',
+      netSymbol: 'ANON'
     };
 
     $scope.menu = [{
